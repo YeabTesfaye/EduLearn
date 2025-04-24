@@ -1,73 +1,50 @@
-using api.Extensions;
-using AspNetCoreRateLimit;
-using E_Learning.Presentation.ActionFilter;
-using Microsoft.AspNetCore.Authentication.JwtBearer;
+using api;
 using Microsoft.AspNetCore.HttpOverrides;
-using Microsoft.AspNetCore.Mvc;
-using Service;
 
 var builder = WebApplication.CreateBuilder(args);
 
+
 // Add services to the container.
+// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+
+builder.Services.ConfigureCors();
+builder.Services.ConfigureIISIntegration();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-builder.Services.ConfigureCors();
-
-
-builder.Services.AddAutoMapper(typeof(MappingProfile));
-builder.Services.AddControllers(config =>
-{
-    config.RespectBrowserAcceptHeader = true;
-    config.ReturnHttpNotAcceptable = true;
-    config.CacheProfiles.Add("120SecondsDuration", new CacheProfile
-    {
-        Duration = 120
-    });
-}).AddXmlDataContractSerializerFormatters()
-.AddApplicationPart(typeof(E_Learning.Presentation.AssemblyReference).Assembly);
-
-// Ensure all necessary services are configured
-builder.Services.ConfigureSqlContext(builder.Configuration);
 builder.Services.ConfigureRepositoryManager();
 builder.Services.ConfigureServiceManager();
-builder.Services.ConfigureResponseCaching();
-builder.Services.ConfigureHttpCacheHeaders();
-builder.Services.AddMemoryCache();
-builder.Services.ConfigureRateLimitingOptions();
-builder.Services.AddHttpContextAccessor();
-builder.Services.AddAuthentication(options =>
-{
-    options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
-    options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
-});
-builder.Services.ConfigureIdentity();
-builder.Services.ConfigureJWT(builder.Configuration);
-
-builder.Services.Configure<ApiBehaviorOptions>(options =>
-{
-    options.SuppressModelStateInvalidFilter = true;
-});
-builder.Services.AddScoped<ValidationFilterAttribute>();
+builder.Services.ConfigureSqlContext(builder.Configuration);
+builder.Services.AddControllers();
+builder.Services.AddControllers()
+.AddApplicationPart(typeof(Presentation.AssemblyReference).Assembly);
 
 var app = builder.Build();
 
+// Configure the HTTP request pipeline.
+if (app.Environment.IsDevelopment())
+{
+    app.UseDeveloperExceptionPage();
+    app.UseSwagger();
+    app.UseSwaggerUI();
+}
+else
+{
+    app.UseHsts();
+}
+app.UseHttpsRedirection();
 
+app.UseStaticFiles();
 app.UseForwardedHeaders(new ForwardedHeadersOptions
 {
     ForwardedHeaders = ForwardedHeaders.All
 });
-app.ConfigureExceptionHandler();
-app.UseAuthentication();
-app.UseRouting();
-app.UseAuthorization();
+
+
 app.UseCors("CorsPolicy");
-app.UseResponseCaching();
-app.UseHttpCacheHeaders();
-app.UseIpRateLimiting();
+
+app.UseAuthorization();
+
 app.MapControllers();
-app.UseEndpoints(endpoints =>
-{
-    _ = endpoints.MapControllers();
-});
 
 app.Run();
+

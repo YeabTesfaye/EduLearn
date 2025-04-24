@@ -511,3 +511,89 @@ storybook-static/
 
 # Turbo
 .turbo
+
+## Ignore Visual Studio temporary files, build results, and
+## user-specific files
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+*.log
+
+## .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+## NuGet
+*.nupkg
+*.snupkg
+*.nuspec
+.nuget/
+packages/
+*.symbols.nupkg
+*.cache
+*.vspscc
+*.vssscc
+*.pdb
+
+# The packages folder can be ignored because of PackageReference
+**/packages/*
+
+# Uncomment if you have a legacy project using `packages.config`
+# !**/packages/*.config
+
+## ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+## DotCover
+.idea/
+*.dotCover
+
+## Rider
+.idea/
+*.sln.iml
+
+## User secrets (local only)
+**/secrets.json
+
+## Entity Framework Core Migrations
+Migrations/
+
+## Others
+*.vs/
+.vs/
+*.DS_Store
+*.env
+.env.*
+*.tmp
+
+# Resharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# JetBrains Rider
+.idea/
+*.sln.iml

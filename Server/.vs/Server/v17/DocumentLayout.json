@@ -1,27 +1,122 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Yeabsra\\Documents\\Projects\\E-Learning-Platform\\Server\\",
+  "WorkspaceRootPath": "C:\\Users\\yeabiseraT\\Desktop\\EduLearn\\server\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\yeabiseraT\\Documents\\E-Learning Platform\\Server\\Shared\\Class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3DCA767C-B025-4956-B07D-A6314AD38A4A}|api\\api.csproj|c:\\users\\yeabiserat\\desktop\\edulearn\\server\\api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3DCA767C-B025-4956-B07D-A6314AD38A4A}|api\\api.csproj|solutionrelative:api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\yeabiseraT\\Documents\\E-Learning Platform\\Server\\Service\\Class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3DCA767C-B025-4956-B07D-A6314AD38A4A}|api\\api.csproj|c:\\users\\yeabiserat\\desktop\\edulearn\\server\\api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3DCA767C-B025-4956-B07D-A6314AD38A4A}|api\\api.csproj|solutionrelative:api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\yeabiseraT\\Documents\\E-Learning Platform\\Server\\Service.Contracts\\Class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3DCA767C-B025-4956-B07D-A6314AD38A4A}|api\\api.csproj|c:\\users\\yeabiserat\\desktop\\edulearn\\server\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DCA767C-B025-4956-B07D-A6314AD38A4A}|api\\api.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\yeabiseraT\\Documents\\E-Learning Platform\\Service.Contracts\\Class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2FF136B9-422B-4358-B54B-32D77369DD3D}|Presentation\\Presentation.csproj|c:\\users\\yeabiserat\\desktop\\edulearn\\server\\presentation\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FF136B9-422B-4358-B54B-32D77369DD3D}|Presentation\\Presentation.csproj|solutionrelative:presentation\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\yeabiseraT\\Documents\\E-Learning Platform\\Server\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{2FF136B9-422B-4358-B54B-32D77369DD3D}|Presentation\\Presentation.csproj|c:\\users\\yeabiserat\\desktop\\edulearn\\server\\presentation\\presentation.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2FF136B9-422B-4358-B54B-32D77369DD3D}|Presentation\\Presentation.csproj|solutionrelative:presentation\\presentation.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\yeabiseraT\\Documents\\E-Learning Platform\\Server\\Contracts\\Class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4A2A01D7-5C12-4310-9456-96B55021BB51}|libs\\Contracts\\Contracts.csproj|c:\\users\\yeabiserat\\desktop\\edulearn\\server\\libs\\contracts\\icourserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A2A01D7-5C12-4310-9456-96B55021BB51}|libs\\Contracts\\Contracts.csproj|solutionrelative:libs\\contracts\\icourserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\yeabiseraT\\Documents\\E-Learning Platform\\Server\\.dockerignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{ADC15572-7FFF-4059-99EF-151212964444}|libs\\Repository\\Repository.csproj|c:\\users\\yeabiserat\\desktop\\edulearn\\server\\libs\\repository\\courserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ADC15572-7FFF-4059-99EF-151212964444}|libs\\Repository\\Repository.csproj|solutionrelative:libs\\repository\\courserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E2029FE-0683-4DB8-90D4-E574BF199793}|libs\\Services\\Services.csproj|c:\\users\\yeabiserat\\desktop\\edulearn\\server\\libs\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E2029FE-0683-4DB8-90D4-E574BF199793}|libs\\Services\\Services.csproj|solutionrelative:libs\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E2029FE-0683-4DB8-90D4-E574BF199793}|libs\\Services\\Services.csproj|c:\\users\\yeabiserat\\desktop\\edulearn\\server\\libs\\services\\servicemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E2029FE-0683-4DB8-90D4-E574BF199793}|libs\\Services\\Services.csproj|solutionrelative:libs\\services\\servicemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E2029FE-0683-4DB8-90D4-E574BF199793}|libs\\Services\\Services.csproj|c:\\users\\yeabiserat\\desktop\\edulearn\\server\\libs\\services\\reviewservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E2029FE-0683-4DB8-90D4-E574BF199793}|libs\\Services\\Services.csproj|solutionrelative:libs\\services\\reviewservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E2029FE-0683-4DB8-90D4-E574BF199793}|libs\\Services\\Services.csproj|c:\\users\\yeabiserat\\desktop\\edulearn\\server\\libs\\services\\progressservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E2029FE-0683-4DB8-90D4-E574BF199793}|libs\\Services\\Services.csproj|solutionrelative:libs\\services\\progressservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E2029FE-0683-4DB8-90D4-E574BF199793}|libs\\Services\\Services.csproj|c:\\users\\yeabiserat\\desktop\\edulearn\\server\\libs\\services\\moduleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E2029FE-0683-4DB8-90D4-E574BF199793}|libs\\Services\\Services.csproj|solutionrelative:libs\\services\\moduleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E2029FE-0683-4DB8-90D4-E574BF199793}|libs\\Services\\Services.csproj|c:\\users\\yeabiserat\\desktop\\edulearn\\server\\libs\\services\\lessonservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E2029FE-0683-4DB8-90D4-E574BF199793}|libs\\Services\\Services.csproj|solutionrelative:libs\\services\\lessonservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E2029FE-0683-4DB8-90D4-E574BF199793}|libs\\Services\\Services.csproj|c:\\users\\yeabiserat\\desktop\\edulearn\\server\\libs\\services\\courseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E2029FE-0683-4DB8-90D4-E574BF199793}|libs\\Services\\Services.csproj|solutionrelative:libs\\services\\courseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81B0C9A6-93BD-437A-8486-E79D7138FF37}|libs\\Service.Contracts\\Service.Contracts.csproj|c:\\users\\yeabiserat\\desktop\\edulearn\\server\\libs\\service.contracts\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81B0C9A6-93BD-437A-8486-E79D7138FF37}|libs\\Service.Contracts\\Service.Contracts.csproj|solutionrelative:libs\\service.contracts\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81B0C9A6-93BD-437A-8486-E79D7138FF37}|libs\\Service.Contracts\\Service.Contracts.csproj|c:\\users\\yeabiserat\\desktop\\edulearn\\server\\libs\\service.contracts\\iservicemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81B0C9A6-93BD-437A-8486-E79D7138FF37}|libs\\Service.Contracts\\Service.Contracts.csproj|solutionrelative:libs\\service.contracts\\iservicemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81B0C9A6-93BD-437A-8486-E79D7138FF37}|libs\\Service.Contracts\\Service.Contracts.csproj|c:\\users\\yeabiserat\\desktop\\edulearn\\server\\libs\\service.contracts\\ireviewservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81B0C9A6-93BD-437A-8486-E79D7138FF37}|libs\\Service.Contracts\\Service.Contracts.csproj|solutionrelative:libs\\service.contracts\\ireviewservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81B0C9A6-93BD-437A-8486-E79D7138FF37}|libs\\Service.Contracts\\Service.Contracts.csproj|c:\\users\\yeabiserat\\desktop\\edulearn\\server\\libs\\service.contracts\\iprogressservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81B0C9A6-93BD-437A-8486-E79D7138FF37}|libs\\Service.Contracts\\Service.Contracts.csproj|solutionrelative:libs\\service.contracts\\iprogressservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81B0C9A6-93BD-437A-8486-E79D7138FF37}|libs\\Service.Contracts\\Service.Contracts.csproj|c:\\users\\yeabiserat\\desktop\\edulearn\\server\\libs\\service.contracts\\imoduleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81B0C9A6-93BD-437A-8486-E79D7138FF37}|libs\\Service.Contracts\\Service.Contracts.csproj|solutionrelative:libs\\service.contracts\\imoduleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81B0C9A6-93BD-437A-8486-E79D7138FF37}|libs\\Service.Contracts\\Service.Contracts.csproj|c:\\users\\yeabiserat\\desktop\\edulearn\\server\\libs\\service.contracts\\ilessonservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81B0C9A6-93BD-437A-8486-E79D7138FF37}|libs\\Service.Contracts\\Service.Contracts.csproj|solutionrelative:libs\\service.contracts\\ilessonservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81B0C9A6-93BD-437A-8486-E79D7138FF37}|libs\\Service.Contracts\\Service.Contracts.csproj|c:\\users\\yeabiserat\\desktop\\edulearn\\server\\libs\\service.contracts\\icourseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81B0C9A6-93BD-437A-8486-E79D7138FF37}|libs\\Service.Contracts\\Service.Contracts.csproj|solutionrelative:libs\\service.contracts\\icourseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DCA767C-B025-4956-B07D-A6314AD38A4A}|api\\api.csproj|c:\\users\\yeabiserat\\desktop\\edulearn\\server\\api\\contextfactory\\repositorycontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DCA767C-B025-4956-B07D-A6314AD38A4A}|api\\api.csproj|solutionrelative:api\\contextfactory\\repositorycontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DCA767C-B025-4956-B07D-A6314AD38A4A}|api\\api.csproj|c:\\users\\yeabiserat\\desktop\\edulearn\\server\\api\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DCA767C-B025-4956-B07D-A6314AD38A4A}|api\\api.csproj|solutionrelative:api\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FF136B9-422B-4358-B54B-32D77369DD3D}|Presentation\\Presentation.csproj|c:\\users\\yeabiserat\\desktop\\edulearn\\server\\presentation\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FF136B9-422B-4358-B54B-32D77369DD3D}|Presentation\\Presentation.csproj|solutionrelative:presentation\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FF136B9-422B-4358-B54B-32D77369DD3D}|Presentation\\Presentation.csproj|c:\\users\\yeabiserat\\desktop\\edulearn\\server\\presentation\\controllers\\reviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FF136B9-422B-4358-B54B-32D77369DD3D}|Presentation\\Presentation.csproj|solutionrelative:presentation\\controllers\\reviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FF136B9-422B-4358-B54B-32D77369DD3D}|Presentation\\Presentation.csproj|c:\\users\\yeabiserat\\desktop\\edulearn\\server\\presentation\\controllers\\progresscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FF136B9-422B-4358-B54B-32D77369DD3D}|Presentation\\Presentation.csproj|solutionrelative:presentation\\controllers\\progresscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FF136B9-422B-4358-B54B-32D77369DD3D}|Presentation\\Presentation.csproj|c:\\users\\yeabiserat\\desktop\\edulearn\\server\\presentation\\controllers\\modulecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FF136B9-422B-4358-B54B-32D77369DD3D}|Presentation\\Presentation.csproj|solutionrelative:presentation\\controllers\\modulecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FF136B9-422B-4358-B54B-32D77369DD3D}|Presentation\\Presentation.csproj|c:\\users\\yeabiserat\\desktop\\edulearn\\server\\presentation\\controllers\\lessoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FF136B9-422B-4358-B54B-32D77369DD3D}|Presentation\\Presentation.csproj|solutionrelative:presentation\\controllers\\lessoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FF136B9-422B-4358-B54B-32D77369DD3D}|Presentation\\Presentation.csproj|c:\\users\\yeabiserat\\desktop\\edulearn\\server\\presentation\\assemblyreference.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FF136B9-422B-4358-B54B-32D77369DD3D}|Presentation\\Presentation.csproj|solutionrelative:presentation\\assemblyreference.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,93 +126,384 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\yeabiseraT\\Documents\\E-Learning Platform\\Server\\Shared\\Class1.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\yeabiseraT\\Documents\\E-Learning Platform\\Server\\Shared\\Class1.cs",
-              "ToolTip": "C:\\Users\\yeabiseraT\\Documents\\E-Learning Platform\\Server\\Shared\\Class1.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\yeabiseraT\\Documents\\E-Learning Platform\\Server\\Shared\\Class1.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-17T12:10:48.477Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\yeabiseraT\\Documents\\E-Learning Platform\\Server\\Service\\Class1.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\yeabiseraT\\Documents\\E-Learning Platform\\Server\\Service\\Class1.cs",
-              "ToolTip": "C:\\Users\\yeabiseraT\\Documents\\E-Learning Platform\\Server\\Service\\Class1.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\yeabiseraT\\Documents\\E-Learning Platform\\Server\\Service\\Class1.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-17T05:50:04.493Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\yeabiseraT\\Documents\\E-Learning Platform\\Server\\Service.Contracts\\Class1.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\yeabiseraT\\Documents\\E-Learning Platform\\Server\\Service.Contracts\\Class1.cs",
-              "ToolTip": "C:\\Users\\yeabiseraT\\Documents\\E-Learning Platform\\Server\\Service.Contracts\\Class1.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\yeabiseraT\\Documents\\E-Learning Platform\\Server\\Service.Contracts\\Class1.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-16T13:44:36.001Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\yeabiseraT\\Documents\\E-Learning Platform\\Service.Contracts\\Class1.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\yeabiseraT\\Documents\\E-Learning Platform\\Service.Contracts\\Class1.cs",
-              "ToolTip": "C:\\Users\\yeabiseraT\\Documents\\E-Learning Platform\\Service.Contracts\\Class1.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\yeabiseraT\\Documents\\E-Learning Platform\\Service.Contracts\\Class1.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-16T13:37:44.505Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "docker-compose.yml",
-              "DocumentMoniker": "C:\\Users\\yeabiseraT\\Documents\\E-Learning Platform\\Server\\docker-compose.yml",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\yeabiseraT\\Documents\\E-Learning Platform\\Server\\docker-compose.yml",
-              "ToolTip": "C:\\Users\\yeabiseraT\\Documents\\E-Learning Platform\\Server\\docker-compose.yml",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\yeabiseraT\\Documents\\E-Learning Platform\\Server\\docker-compose.yml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
-              "WhenOpened": "2024-09-16T09:22:45.205Z"
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\yeabiseraT\\Desktop\\EduLearn\\server\\api\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "api\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\yeabiseraT\\Desktop\\EduLearn\\server\\api\\Properties\\launchSettings.json",
+              "RelativeToolTip": "api\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-24T13:17:51.993Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": ".dockerignore",
-              "DocumentMoniker": "C:\\Users\\yeabiseraT\\Documents\\E-Learning Platform\\Server\\.dockerignore",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\yeabiseraT\\Documents\\E-Learning Platform\\Server\\.dockerignore",
-              "ToolTip": "C:\\Users\\yeabiseraT\\Documents\\E-Learning Platform\\Server\\.dockerignore",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\yeabiseraT\\Documents\\E-Learning Platform\\Server\\.dockerignore",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-09-16T09:22:32.424Z"
+              "Title": "CourseRepository.cs",
+              "DocumentMoniker": "C:\\Users\\yeabiseraT\\Desktop\\EduLearn\\server\\libs\\Repository\\CourseRepository.cs",
+              "RelativeDocumentMoniker": "libs\\Repository\\CourseRepository.cs",
+              "ToolTip": "C:\\Users\\yeabiseraT\\Desktop\\EduLearn\\server\\libs\\Repository\\CourseRepository.cs",
+              "RelativeToolTip": "libs\\Repository\\CourseRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T13:14:47.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\yeabiseraT\\Desktop\\EduLearn\\server\\libs\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "libs\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\yeabiseraT\\Desktop\\EduLearn\\server\\libs\\Services\\UserService.cs",
+              "RelativeToolTip": "libs\\Services\\UserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T13:14:28.482Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ProgressService.cs",
+              "DocumentMoniker": "C:\\Users\\yeabiseraT\\Desktop\\EduLearn\\server\\libs\\Services\\ProgressService.cs",
+              "RelativeDocumentMoniker": "libs\\Services\\ProgressService.cs",
+              "ToolTip": "C:\\Users\\yeabiseraT\\Desktop\\EduLearn\\server\\libs\\Services\\ProgressService.cs",
+              "RelativeToolTip": "libs\\Services\\ProgressService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T13:14:07.585Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\yeabiseraT\\Desktop\\EduLearn\\server\\libs\\Service.Contracts\\IUserService.cs",
+              "RelativeDocumentMoniker": "libs\\Service.Contracts\\IUserService.cs",
+              "ToolTip": "C:\\Users\\yeabiseraT\\Desktop\\EduLearn\\server\\libs\\Service.Contracts\\IUserService.cs",
+              "RelativeToolTip": "libs\\Service.Contracts\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T13:13:40.705Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IReviewService.cs",
+              "DocumentMoniker": "C:\\Users\\yeabiseraT\\Desktop\\EduLearn\\server\\libs\\Service.Contracts\\IReviewService.cs",
+              "RelativeDocumentMoniker": "libs\\Service.Contracts\\IReviewService.cs",
+              "ToolTip": "C:\\Users\\yeabiseraT\\Desktop\\EduLearn\\server\\libs\\Service.Contracts\\IReviewService.cs",
+              "RelativeToolTip": "libs\\Service.Contracts\\IReviewService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T13:13:34.83Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IServiceManager.cs",
+              "DocumentMoniker": "C:\\Users\\yeabiseraT\\Desktop\\EduLearn\\server\\libs\\Service.Contracts\\IServiceManager.cs",
+              "RelativeDocumentMoniker": "libs\\Service.Contracts\\IServiceManager.cs",
+              "ToolTip": "C:\\Users\\yeabiseraT\\Desktop\\EduLearn\\server\\libs\\Service.Contracts\\IServiceManager.cs",
+              "RelativeToolTip": "libs\\Service.Contracts\\IServiceManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T13:13:33.853Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IProgressService.cs",
+              "DocumentMoniker": "C:\\Users\\yeabiseraT\\Desktop\\EduLearn\\server\\libs\\Service.Contracts\\IProgressService.cs",
+              "RelativeDocumentMoniker": "libs\\Service.Contracts\\IProgressService.cs",
+              "ToolTip": "C:\\Users\\yeabiseraT\\Desktop\\EduLearn\\server\\libs\\Service.Contracts\\IProgressService.cs",
+              "RelativeToolTip": "libs\\Service.Contracts\\IProgressService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T13:13:32.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IModuleService.cs",
+              "DocumentMoniker": "C:\\Users\\yeabiseraT\\Desktop\\EduLearn\\server\\libs\\Service.Contracts\\IModuleService.cs",
+              "RelativeDocumentMoniker": "libs\\Service.Contracts\\IModuleService.cs",
+              "ToolTip": "C:\\Users\\yeabiseraT\\Desktop\\EduLearn\\server\\libs\\Service.Contracts\\IModuleService.cs",
+              "RelativeToolTip": "libs\\Service.Contracts\\IModuleService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T13:13:31.293Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ILessonService.cs",
+              "DocumentMoniker": "C:\\Users\\yeabiseraT\\Desktop\\EduLearn\\server\\libs\\Service.Contracts\\ILessonService.cs",
+              "RelativeDocumentMoniker": "libs\\Service.Contracts\\ILessonService.cs",
+              "ToolTip": "C:\\Users\\yeabiseraT\\Desktop\\EduLearn\\server\\libs\\Service.Contracts\\ILessonService.cs",
+              "RelativeToolTip": "libs\\Service.Contracts\\ILessonService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T13:13:29.95Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ICourseService.cs",
+              "DocumentMoniker": "C:\\Users\\yeabiseraT\\Desktop\\EduLearn\\server\\libs\\Service.Contracts\\ICourseService.cs",
+              "RelativeDocumentMoniker": "libs\\Service.Contracts\\ICourseService.cs",
+              "ToolTip": "C:\\Users\\yeabiseraT\\Desktop\\EduLearn\\server\\libs\\Service.Contracts\\ICourseService.cs",
+              "RelativeToolTip": "libs\\Service.Contracts\\ICourseService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T13:13:27.207Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CourseService.cs",
+              "DocumentMoniker": "C:\\Users\\yeabiseraT\\Desktop\\EduLearn\\server\\libs\\Services\\CourseService.cs",
+              "RelativeDocumentMoniker": "libs\\Services\\CourseService.cs",
+              "ToolTip": "C:\\Users\\yeabiseraT\\Desktop\\EduLearn\\server\\libs\\Services\\CourseService.cs",
+              "RelativeToolTip": "libs\\Services\\CourseService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T13:13:03.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "RepositoryContextFactory.cs",
+              "DocumentMoniker": "C:\\Users\\yeabiseraT\\Desktop\\EduLearn\\server\\api\\ContextFactory\\RepositoryContextFactory.cs",
+              "RelativeDocumentMoniker": "api\\ContextFactory\\RepositoryContextFactory.cs",
+              "ToolTip": "C:\\Users\\yeabiseraT\\Desktop\\EduLearn\\server\\api\\ContextFactory\\RepositoryContextFactory.cs",
+              "RelativeToolTip": "api\\ContextFactory\\RepositoryContextFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T13:12:49.51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\yeabiseraT\\Desktop\\EduLearn\\server\\Presentation\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Presentation\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\yeabiseraT\\Desktop\\EduLearn\\server\\Presentation\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Presentation\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T13:03:42.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ReviewController.cs",
+              "DocumentMoniker": "C:\\Users\\yeabiseraT\\Desktop\\EduLearn\\server\\Presentation\\Controllers\\ReviewController.cs",
+              "RelativeDocumentMoniker": "Presentation\\Controllers\\ReviewController.cs",
+              "ToolTip": "C:\\Users\\yeabiseraT\\Desktop\\EduLearn\\server\\Presentation\\Controllers\\ReviewController.cs",
+              "RelativeToolTip": "Presentation\\Controllers\\ReviewController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T13:03:33.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ProgressController.cs",
+              "DocumentMoniker": "C:\\Users\\yeabiseraT\\Desktop\\EduLearn\\server\\Presentation\\Controllers\\ProgressController.cs",
+              "RelativeDocumentMoniker": "Presentation\\Controllers\\ProgressController.cs",
+              "ToolTip": "C:\\Users\\yeabiseraT\\Desktop\\EduLearn\\server\\Presentation\\Controllers\\ProgressController.cs",
+              "RelativeToolTip": "Presentation\\Controllers\\ProgressController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T13:03:20.955Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ModuleController.cs",
+              "DocumentMoniker": "C:\\Users\\yeabiseraT\\Desktop\\EduLearn\\server\\Presentation\\Controllers\\ModuleController.cs",
+              "RelativeDocumentMoniker": "Presentation\\Controllers\\ModuleController.cs",
+              "ToolTip": "C:\\Users\\yeabiseraT\\Desktop\\EduLearn\\server\\Presentation\\Controllers\\ModuleController.cs",
+              "RelativeToolTip": "Presentation\\Controllers\\ModuleController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T13:03:09.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "LessonController.cs",
+              "DocumentMoniker": "C:\\Users\\yeabiseraT\\Desktop\\EduLearn\\server\\Presentation\\Controllers\\LessonController.cs",
+              "RelativeDocumentMoniker": "Presentation\\Controllers\\LessonController.cs",
+              "ToolTip": "C:\\Users\\yeabiseraT\\Desktop\\EduLearn\\server\\Presentation\\Controllers\\LessonController.cs",
+              "RelativeToolTip": "Presentation\\Controllers\\LessonController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T13:02:59.306Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CourseController.cs",
+              "DocumentMoniker": "C:\\Users\\yeabiseraT\\Desktop\\EduLearn\\server\\Presentation\\Controllers\\CourseController.cs",
+              "RelativeDocumentMoniker": "Presentation\\Controllers\\CourseController.cs",
+              "ToolTip": "C:\\Users\\yeabiseraT\\Desktop\\EduLearn\\server\\Presentation\\Controllers\\CourseController.cs",
+              "RelativeToolTip": "Presentation\\Controllers\\CourseController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T13:02:48.42Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Presentation",
+              "DocumentMoniker": "C:\\Users\\yeabiseraT\\Desktop\\EduLearn\\server\\Presentation\\Presentation.csproj",
+              "RelativeDocumentMoniker": "Presentation\\Presentation.csproj",
+              "ToolTip": "C:\\Users\\yeabiseraT\\Desktop\\EduLearn\\server\\Presentation\\Presentation.csproj",
+              "RelativeToolTip": "Presentation\\Presentation.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-24T12:55:13.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "AssemblyReference.cs",
+              "DocumentMoniker": "C:\\Users\\yeabiseraT\\Desktop\\EduLearn\\server\\Presentation\\AssemblyReference.cs",
+              "RelativeDocumentMoniker": "Presentation\\AssemblyReference.cs",
+              "ToolTip": "C:\\Users\\yeabiseraT\\Desktop\\EduLearn\\server\\Presentation\\AssemblyReference.cs",
+              "RelativeToolTip": "Presentation\\AssemblyReference.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T12:55:23.308Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\yeabiseraT\\Desktop\\EduLearn\\server\\api\\appsettings.json",
+              "RelativeDocumentMoniker": "api\\appsettings.json",
+              "ToolTip": "C:\\Users\\yeabiseraT\\Desktop\\EduLearn\\server\\api\\appsettings.json",
+              "RelativeToolTip": "api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-24T12:51:55.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\yeabiseraT\\Desktop\\EduLearn\\server\\api\\Program.cs",
+              "RelativeDocumentMoniker": "api\\Program.cs",
+              "ToolTip": "C:\\Users\\yeabiseraT\\Desktop\\EduLearn\\server\\api\\Program.cs",
+              "RelativeToolTip": "api\\Program.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T09:36:41.86Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ServiceExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\yeabiseraT\\Desktop\\EduLearn\\server\\api\\ServiceExtensions.cs",
+              "RelativeDocumentMoniker": "api\\ServiceExtensions.cs",
+              "ToolTip": "C:\\Users\\yeabiseraT\\Desktop\\EduLearn\\server\\api\\ServiceExtensions.cs",
+              "RelativeToolTip": "api\\ServiceExtensions.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAkwD0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T09:34:57.715Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "LessonService.cs",
+              "DocumentMoniker": "C:\\Users\\yeabiseraT\\Desktop\\EduLearn\\server\\libs\\Services\\LessonService.cs",
+              "RelativeDocumentMoniker": "libs\\Services\\LessonService.cs",
+              "ToolTip": "C:\\Users\\yeabiseraT\\Desktop\\EduLearn\\server\\libs\\Services\\LessonService.cs",
+              "RelativeToolTip": "libs\\Services\\LessonService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T09:31:32.881Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ModuleService.cs",
+              "DocumentMoniker": "C:\\Users\\yeabiseraT\\Desktop\\EduLearn\\server\\libs\\Services\\ModuleService.cs",
+              "RelativeDocumentMoniker": "libs\\Services\\ModuleService.cs",
+              "ToolTip": "C:\\Users\\yeabiseraT\\Desktop\\EduLearn\\server\\libs\\Services\\ModuleService.cs",
+              "RelativeToolTip": "libs\\Services\\ModuleService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T09:28:30.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ReviewService.cs",
+              "DocumentMoniker": "C:\\Users\\yeabiseraT\\Desktop\\EduLearn\\server\\libs\\Services\\ReviewService.cs",
+              "RelativeDocumentMoniker": "libs\\Services\\ReviewService.cs",
+              "ToolTip": "C:\\Users\\yeabiseraT\\Desktop\\EduLearn\\server\\libs\\Services\\ReviewService.cs",
+              "RelativeToolTip": "libs\\Services\\ReviewService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T09:20:16.281Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ServiceManager.cs",
+              "DocumentMoniker": "C:\\Users\\yeabiseraT\\Desktop\\EduLearn\\server\\libs\\Services\\ServiceManager.cs",
+              "RelativeDocumentMoniker": "libs\\Services\\ServiceManager.cs",
+              "ToolTip": "C:\\Users\\yeabiseraT\\Desktop\\EduLearn\\server\\libs\\Services\\ServiceManager.cs",
+              "RelativeToolTip": "libs\\Services\\ServiceManager.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T09:00:30.144Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\yeabiseraT\\Documents\\E-Learning Platform\\Server\\Contracts\\Class1.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\yeabiseraT\\Documents\\E-Learning Platform\\Server\\Contracts\\Class1.cs",
-              "ToolTip": "C:\\Users\\yeabiseraT\\Documents\\E-Learning Platform\\Server\\Contracts\\Class1.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\yeabiseraT\\Documents\\E-Learning Platform\\Server\\Contracts\\Class1.cs",
+              "Title": "ICourseRepository.cs",
+              "DocumentMoniker": "C:\\Users\\yeabiseraT\\Desktop\\EduLearn\\server\\libs\\Contracts\\ICourseRepository.cs",
+              "RelativeDocumentMoniker": "libs\\Contracts\\ICourseRepository.cs",
+              "ToolTip": "C:\\Users\\yeabiseraT\\Desktop\\EduLearn\\server\\libs\\Contracts\\ICourseRepository.cs",
+              "RelativeToolTip": "libs\\Contracts\\ICourseRepository.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAcwA0AAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-16T07:20:33.665Z"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+              "WhenOpened": "2025-04-24T07:29:56.31Z",
+              "EditorCaption": ""
             }
           ]
         }
