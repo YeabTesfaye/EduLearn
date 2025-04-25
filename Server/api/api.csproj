@@ -21,6 +21,7 @@
     <ProjectReference Include="..\libs\Service.Contracts\Service.Contracts.csproj" />
     <ProjectReference Include="..\libs\Services\Services.csproj" />
     <ProjectReference Include="..\libs\Presentation\Presentation.csproj" />
+    <ProjectReference Include="..\libs\Entities\Entities.csproj" />
   </ItemGroup>
 
 </Project>

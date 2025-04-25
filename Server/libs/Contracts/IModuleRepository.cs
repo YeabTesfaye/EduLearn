@@ -7,8 +7,8 @@ namespace Contracts;
 /// </summary>
 public interface IModuleRepository
 {
-    Task<IEnumerable<Module>> GetAllModulesAsync(bool trackChanges);
-    Task<Module> GetModuleByIdAsync(Guid moduleId, bool trackChanges);
-    Task<IEnumerable<Module>> GetModulesByCourseIdAsync(Guid courseId, bool trackChanges);
+    IEnumerable<Module> GetAllModules(bool trackChanges);
+    Module? GetModuleById(Guid moduleId, bool trackChanges);
+    IEnumerable<Module> GetModulesByCourseId(Guid courseId, bool trackChanges);
 
 }

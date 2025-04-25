@@ -1,4 +1,5 @@
-﻿using Contracts;
+﻿using AutoMapper;
+using Contracts;
 using Service.Contracts;
 using System;
 using System.Collections.Generic;
@@ -12,9 +13,11 @@ internal sealed class ReviewService : IReviewService
 {
 
     private IRepositoryManager _repositoryManager;
-    public ReviewService(IRepositoryManager repositoryManager)
+    private readonly IMapper _mapper;
+    public ReviewService(IRepositoryManager repositoryManager, IMapper mapper)
     {
         _repositoryManager = repositoryManager;
+        _mapper = mapper;
     }
 }
 

@@ -11,72 +11,68 @@ class UserRepository : RepositoryBase<User>, IUserRepository
     {
     }
 
-    public Task<IEnumerable<User>> GetActiveUsersAsync(bool trackChanges)
+    public IEnumerable<User> GetActiveUsers(bool trackChanges)
     {
         throw new NotImplementedException();
     }
 
-    public Task<IEnumerable<User>> GetAllAdminsAsync(bool trackChanges)
+    public IEnumerable<User> GetAllAdmins(bool trackChanges)
     {
         throw new NotImplementedException();
     }
 
-    public Task<IEnumerable<User>> GetAllInstructorsAsync(bool trackChanges)
+    public IEnumerable<User> GetAllInstructors(bool trackChanges)
     {
         throw new NotImplementedException();
     }
 
-    public Task<IEnumerable<User>> GetAllStudentsAsync(bool trackChanges)
+    public IEnumerable<User> GetAllStudents(bool trackChanges)
     {
         throw new NotImplementedException();
     }
 
-    public Task<IEnumerable<User>> GetAllUsersAsync(bool trackChanges)
+    public IEnumerable<User> GetAllUsers(bool trackChanges)
+    {
+        var users = FindAll(trackChanges).OrderBy(u => u.FirstName).ToList();
+        return users;
+    }
+
+    public IEnumerable<Course> GetCoursesByInstructorId(Guid instructorId, bool trackChanges)
     {
         throw new NotImplementedException();
     }
 
-    public Task<IEnumerable<Course>> GetCoursesByInstructorIdAsync(Guid instructorId, bool trackChanges)
+    public IEnumerable<Course> GetEnrolledCoursesByStudentId(Guid studentId, bool trackChanges)
     {
         throw new NotImplementedException();
     }
 
-    public Task<IEnumerable<Course>> GetEnrolledCoursesByStudentIdAsync(Guid studentId, bool trackChanges)
+    public IEnumerable<User> GetInactiveUsers(bool trackChanges)
     {
         throw new NotImplementedException();
     }
 
-    public Task<IEnumerable<User>> GetInactiveUsersAsync(bool trackChanges)
+    public User? GetUserByEmail(string email, bool trackChanges)
     {
         throw new NotImplementedException();
     }
 
-    public Task<User> GetUserByEmailAsync(string email)
+    public User? GetUserById(Guid userId, bool trackChanges)
     {
         throw new NotImplementedException();
     }
 
-    public Task<User?> GetUserByEmailAsync(string email, bool trackChanges)
+    public User? GetUserByUsername(string username, bool trackChanges)
     {
         throw new NotImplementedException();
     }
 
-    public Task<User?> GetUserByIdAsync(Guid userId, bool trackChanges)
+    public IEnumerable<User> SearchUsersByName(string name, bool trackChanges)
     {
         throw new NotImplementedException();
     }
 
-    public Task<User?> GetUserByUsernameAsync(string username, bool trackChanges)
-    {
-        throw new NotImplementedException();
-    }
-
-    public Task<IEnumerable<User>> SearchUsersByNameAsync(string name, bool trackChanges)
-    {
-        throw new NotImplementedException();
-    }
-
-    public Task ToggleUserActivationAsync(Guid userId)
+    public Task ToggleUserActivation(Guid userId)
     {
         throw new NotImplementedException();
     }

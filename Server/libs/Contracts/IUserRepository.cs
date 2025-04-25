@@ -5,30 +5,30 @@ namespace Contracts;
     public interface IUserRepository
     {
         // ✅ Basic Queries
-        Task<IEnumerable<User>> GetAllUsersAsync(bool trackChanges);
-        Task<User?> GetUserByIdAsync(Guid userId, bool trackChanges);
-        Task<User?> GetUserByEmailAsync(string email, bool trackChanges);
-        Task<User?> GetUserByUsernameAsync(string username, bool trackChanges);
+        IEnumerable<User> GetAllUsers(bool trackChanges);
+        User? GetUserById(Guid userId, bool trackChanges);
+        User? GetUserByEmail(string email, bool trackChanges);
+        User? GetUserByUsername(string username, bool trackChanges);
 
         // ✅ Role-Based Queries
-        Task<IEnumerable<User>> GetAllStudentsAsync(bool trackChanges);     // role = "Student"
-        Task<IEnumerable<User>> GetAllInstructorsAsync(bool trackChanges);  // role = "Instructor"
-        Task<IEnumerable<User>> GetAllAdminsAsync(bool trackChanges);       // role = "Admin"
+        IEnumerable<User> GetAllStudents(bool trackChanges);     // role = "Student"
+        IEnumerable<User> GetAllInstructors(bool trackChanges);  // role = "Instructor"
+        IEnumerable<User> GetAllAdmins(bool trackChanges);       // role = "Admin"
 
         // ✅ Status Queries
-        Task<IEnumerable<User>> GetActiveUsersAsync(bool trackChanges);
-        Task<IEnumerable<User>> GetInactiveUsersAsync(bool trackChanges);
+        IEnumerable<User> GetActiveUsers(bool trackChanges);
+        IEnumerable<User> GetInactiveUsers(bool trackChanges);
 
         // ✅ Instructor-specific methods
-        Task<IEnumerable<Course>> GetCoursesByInstructorIdAsync(Guid instructorId, bool trackChanges);
+        IEnumerable<Course> GetCoursesByInstructorId(Guid instructorId, bool trackChanges);
 
         // ✅ Student-specific methods
-        Task<IEnumerable<Course>> GetEnrolledCoursesByStudentIdAsync(Guid studentId, bool trackChanges);
+        IEnumerable<Course> GetEnrolledCoursesByStudentId(Guid studentId, bool trackChanges);
 
         // ✅ Admin-specific utilities
-        Task ToggleUserActivationAsync(Guid userId); // soft delete / re-enable
+        Task ToggleUserActivation(Guid userId); // soft delete / re-enable
 
         // ✅ Custom Queries
-        Task<IEnumerable<User>> SearchUsersByNameAsync(string name, bool trackChanges);
+        IEnumerable<User> SearchUsersByName(string name, bool trackChanges);
     }
 

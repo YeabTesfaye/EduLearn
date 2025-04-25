@@ -1,13 +1,5 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-
-
-  <ItemGroup>
-    <ProjectReference Include="..\Shared.DataTransferObjects\Shared.DataTransferObjects.csproj" />
-  </ItemGroup>
-
-
-
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>

@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Service.Contracts;
 
 namespace Presentation.Controllers;
 
@@ -6,10 +7,15 @@ namespace Presentation.Controllers;
 [ApiController]
 public class UserController : ControllerBase
 {
+    private readonly IServiceManager _serviceManager;
+    public UserController(IServiceManager serviceManager)
+    {
+        _serviceManager = serviceManager;
+    }
     [HttpGet]
     public IActionResult GetUsers()
     {
-        var users = new List<string> { "Alice", "Bob", "Charlie" };
+        var users = _serviceManager.UserService.GetAllUsers(trackChanges: false);
         return Ok(users);
     }
 }

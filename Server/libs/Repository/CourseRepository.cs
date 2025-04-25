@@ -17,78 +17,60 @@ public class CourseRepository : RepositoryBase<Course>, ICourseRepository
     {
     }
 
-    public void CreateCourse(Course course)
-    {
-        throw new NotImplementedException();
-    }
 
-    public void DeleteCourse(Course course)
-    {
-        throw new NotImplementedException();
-    }
+    public IEnumerable<Course> GetAllCourses(bool trackChanges)
+        => FindAll(trackChanges).OrderBy(c => c.Title).ToList();
 
-    public Task<IEnumerable<Course>> GetAllCoursesAsync(bool trackChanges)
-    {
-        throw new NotImplementedException();
-    }
+    public Course? GetCourseById(Guid courseId, bool trackChanges)
+        => FindByCondition(c => c.Id == courseId, trackChanges).SingleOrDefault();
 
-    public Task<Course?> GetCourseByIdAsync(Guid courseId, bool trackChanges)
-    {
-        throw new NotImplementedException();
-    }
+    public IEnumerable<Review> GetCourseReviews(Guid courseId, bool trackChanges)
+        => FindByCondition(c => c.Id == courseId, trackChanges)
+            .SelectMany(c => c.Reviews!)
+            .ToList();
 
-    public Task<IEnumerable<Review>> GetCourseReviewsAsync(Guid courseId, bool trackChanges)
-    {
-        throw new NotImplementedException();
-    }
+    public IEnumerable<Course> GetCoursesByCategory(string category, bool trackChanges)
+        => FindByCondition(c => c.Category == category, trackChanges).ToList();
 
-    public Task<IEnumerable<Course>> GetCoursesByCategoryAsync(string category, bool trackChanges)
-    {
-        throw new NotImplementedException();
-    }
+    public IEnumerable<Course> GetCoursesByInstructor(Guid instructorId, bool trackChanges)
+        => FindByCondition(c => c.InstructorId == instructorId, trackChanges).ToList();
 
-    public Task<IEnumerable<Course>> GetCoursesByInstructorIdAsync(Guid instructorId, bool trackChanges)
-    {
-        throw new NotImplementedException();
-    }
+    public IEnumerable<Course> GetCoursesByLevel(string level, bool trackChanges)
+        => FindByCondition(c => c.Level == level, trackChanges).ToList();
 
-    public Task<IEnumerable<Course>> GetCoursesByLevelAsync(string level, bool trackChanges)
-    {
-        throw new NotImplementedException();
-    }
+    public IEnumerable<User> GetEnrolledStudents(Guid courseId, bool trackChanges)
+        => FindByCondition(c => c.Id == courseId, trackChanges)
+            .SelectMany(c => c.EnrolledStudents!)
+            .ToList();
 
-    public Task<IEnumerable<User>> GetEnrolledStudentsAsync(Guid courseId, bool trackChanges)
-    {
-        throw new NotImplementedException();
-    }
+    public IEnumerable<Module> GetModulesByCourse(Guid courseId, bool trackChanges)
+        => FindByCondition(c => c.Id == courseId, trackChanges)
+            .SelectMany(c => c.Modules!)
+            .ToList();
 
-    public Task<IEnumerable<Module>> GetModulesByCourseIdAsync(Guid courseId, bool trackChanges)
-    {
-        throw new NotImplementedException();
-    }
+    public IEnumerable<Course> GetPublishedCourses(bool trackChanges)
+        => FindByCondition(c => c.IsPublished, trackChanges).ToList();
 
-    public Task<IEnumerable<Course>> GetPublishedCoursesAsync(bool trackChanges)
-    {
-        throw new NotImplementedException();
-    }
+    public IEnumerable<Course> GetUnpublishedCourses(bool trackChanges)
+        => FindByCondition(c => !c.IsPublished, trackChanges).ToList();
 
-    public Task<IEnumerable<Course>> GetRecentCoursesAsync(int count, bool trackChanges)
-    {
-        throw new NotImplementedException();
-    }
+    public IEnumerable<Course> GetRecentCourses(int count, bool trackChanges)
+        => FindAll(trackChanges)
+            .OrderByDescending(c => c.CreatedAt)
+            .Take(count)
+            .ToList();
 
-    public Task<IEnumerable<Course>> GetTopRatedCoursesAsync(int count, bool trackChanges)
-    {
-        throw new NotImplementedException();
-    }
+    public IEnumerable<Course> GetTopRatedCourses(int count, bool trackChanges)
+        => FindAll(trackChanges)
+            .OrderByDescending(c => c.Reviews!.Average(r => r.Rating)) // assuming Review has a Rating property
+            .Take(count)
+            .ToList();
 
-    public Task<IEnumerable<Course>> GetUnpublishedCoursesAsync(bool trackChanges)
-    {
-        throw new NotImplementedException();
-    }
+    public IEnumerable<Course> SearchCourses(string keyword, bool trackChanges)
+        => FindByCondition(c =>
+               c.Title.Contains(keyword) ||
+               c.Description.Contains(keyword), trackChanges)
+           .ToList();
 
-    public Task<IEnumerable<Course>> SearchCoursesAsync(string keyword, bool trackChanges)
-    {
-        throw new NotImplementedException();
-    }
+    
 }

@@ -14,19 +14,22 @@ public class ModuleRepository : RepositoryBase<Module>, IModuleRepository
     {
     }
 
-    
-    public Task<IEnumerable<Module>> GetAllModulesAsync(bool trackChanges)
+    public IEnumerable<Module> GetAllModules(bool trackChanges)
     {
-        throw new NotImplementedException();
+        var modules = FindAll(trackChanges).OrderBy(m => m.Title).ToList();
+        return modules;
     }
 
-    public Task<Module> GetModuleByIdAsync(Guid moduleId, bool trackChanges)
+    public Module? GetModuleById(Guid moduleId, bool trackChanges)
     {
-        throw new NotImplementedException();
+        var module = FindByCondition(m => m.Id == moduleId, trackChanges).SingleOrDefault();
+        return module;
     }
 
-    public Task<IEnumerable<Module>> GetModulesByCourseIdAsync(Guid courseId, bool trackChanges)
+    public IEnumerable<Module> GetModulesByCourseId(Guid courseId, bool trackChanges)
     {
-        throw new NotImplementedException();
+        var modulesWithCourse = FindByCondition(m => m.CourseId == courseId, trackChanges).OrderBy(c => c.Title).ToList();
+
+        return modulesWithCourse;
     }
 }

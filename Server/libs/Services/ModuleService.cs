@@ -1,4 +1,5 @@
-﻿using Contracts;
+﻿using AutoMapper;
+using Contracts;
 using Service.Contracts;
 
 namespace Services;
@@ -6,10 +7,12 @@ namespace Services;
 internal sealed class ModuleService : IModuleService
 {
     private IRepositoryManager _repositoryManager;
+    private readonly IMapper _mapper;
 
-    public ModuleService(IRepositoryManager repositoryManager)
+    public ModuleService(IRepositoryManager repositoryManager, IMapper mapper)
     {
         _repositoryManager = repositoryManager;
+        _mapper = mapper;   
     }
 
 
